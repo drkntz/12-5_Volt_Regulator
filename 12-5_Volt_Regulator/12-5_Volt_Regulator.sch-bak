@@ -49,17 +49,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm22676.pdf" H 4600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
-U 1 1 60F22C87
-P 3600 3500
-F 0 "C7" H 3715 3546 50  0000 L CNN
-F 1 "100nF" H 3715 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3638 3350 50  0001 C CNN
-F 3 "~" H 3600 3500 50  0001 C CNN
-	1    3600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C6
 U 1 1 60F23140
 P 3250 3500
@@ -453,4 +442,21 @@ Wire Wire Line
 Wire Wire Line
 	9100 4100 8700 4100
 Connection ~ 8700 4100
+$Comp
+L Device:C C7
+U 1 1 60F22C87
+P 3600 3500
+F 0 "C7" H 3715 3546 50  0000 L CNN
+F 1 "100nF" H 3715 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3638 3350 50  0001 C CNN
+F 3 "~" H 3600 3500 50  0001 C CNN
+	1    3600 3500
+	1    0    0    -1  
+$EndComp
+Text Label 1900 3200 0    50   ~ 0
+12v
+Text Label 8700 3200 0    50   ~ 0
+5v
+Text Label 5650 3200 0    50   ~ 0
+V_SW
 $EndSCHEMATC
